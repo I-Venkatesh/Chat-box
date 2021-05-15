@@ -1,0 +1,108 @@
+
+html,body{
+  margin: 0;
+  padding: 0;
+  
+}
+#root {
+  height: 100vh;
+}
+*{
+  box-sizing: border-box;
+}
+
+.joinOuterContainer
+{
+  background : url("../../imgs/waves7.svg");
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  overflow: visible;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.joinInnerContainer{
+  border-radius: 4px 4px 4px 4px;
+  background: linear-gradient(hsla(239, 75%, 46%, 0.961), #1c2d3d);
+  padding: 20px;
+  opacity: 0.96;
+}
+.joinInput{
+  border-radius: 4px 4px 4px 4px;
+  padding: 15px 20px;
+  margin: 30px;
+}
+.heading {
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+.button {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #6079a3;
+  padding: 15px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  margin: 20px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+@media (max-width: 400px) {
+  .joinOuterContainer
+  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background : url("../../imgs/waves7.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .joinInnerContainer{
+    border-radius: 4px 4px 4px 4px;
+    background: linear-gradient(hsla(199, 77%, 41%, 0.961), #0476e0);
+    padding: 5px;
+    opacity: 0.96;
+  }
+  .joinInput{
+    border-radius: 4px 4px 4px 4px;
+    padding: 10px 10px;
+    margin: 10px;
+    width: 70%;
+  }
+  .heading {
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+  }
+  .button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #083480;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    margin: 20px;
+  }
+  .mt-20 {
+    margin-top: 20px;
+  }
+
+
+}
+
+button:focus {
+  outline: 0;
+}
